@@ -7,7 +7,7 @@
 
 <br/>
 
-Code $\&$ Paper release data is around mid August, thanks for your waiting !
+Code & Paper release data is around mid August, thanks for your waiting !
 
 **2024.07.04 :** Paper accepted by **ECCV 2024** ! 
 
