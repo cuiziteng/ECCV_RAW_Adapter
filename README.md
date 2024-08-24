@@ -25,7 +25,7 @@ Fig.1 (a). An overview of basic image signal processor (ISP) pipeline. (b). ISP 
 ```
 @inproceedings{raw_adapter,
   title     = {RAW-Adapter: Adapting Pretrained Visual Model to Camera RAW Images},
-  author    = {Cui, Ziteng and Harada, Tatsuya},
+  author    = {Ziteng Cui and Tatsuya Harada},
   booktitle={ECCV},
   year={2024}
 }
