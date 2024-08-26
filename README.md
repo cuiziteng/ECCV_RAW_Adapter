@@ -22,7 +22,24 @@ sRGB images are now the predominant choice for pre-training visual models in com
 Fig.1 (a). An overview of basic image signal processor (ISP) pipeline. (b). ISP and current visual model have different objectives. (c) Previous methods optimize ISP with down-stream visual model. (d) Our proposed RAW-Adapter.
 </p>
 
+## Usage:
+
+**For object detection part:**
+
 ```
+cd mmdetection_github
+```
+
+**For semantic segmentation part:**
+
+```
+cd mmsegmentation_github
+```
+
+## Citation:
+
+If you use our dataset or find our work useful in your project, please consider to cite our paper, thx ~
+
 @inproceedings{raw_adapter,
   title = {RAW-Adapter: Adapting Pretrained Visual Model to Camera RAW Images},
   author = {Ziteng Cui and Tatsuya Harada},
