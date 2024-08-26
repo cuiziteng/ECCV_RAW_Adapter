@@ -1,6 +1,6 @@
 # RAW-Adapter Semantic Segmentation (ADE20K-RAW dataset)
 
-### 1: Dataset Download
+### 📖 1: Dataset Download
 
 **ADE20K-RAW** is our synthesised RAW data semantic segmentation dataset, we adopt InverseISP to translate RGB to raw-RGB data, then apply inverse white balance & mosaic on the translated data.
 
@@ -34,7 +34,7 @@ Dataset Format as:
                       -- 3_ECCV16(https://karaimer.github.io/camera-pipeline/)
 ```
 
-### 2: Enviroment Setup
+### 📖 2: Enviroment Setup
 
 Our code based on [mmsegmentation 1.2.1](https://github.com/open-mmlab/mmsegmentation/tree/v1.2.1) version, you can following their [instruction](https://github.com/open-mmlab/mmsegmentation/blob/v1.2.1/docs/en/get_started.md#installation) to build environment. Or following our steps below:
 
@@ -62,7 +62,7 @@ pip install -v -e .
 ```
 
 
-### 3: Model Evaluation 
+### 📖 3: Model Evaluation 
 
 
 We show the benchmark and **mIOU** performance. Download the pretrain weights (ckpt) and training logs (log) from:
@@ -97,7 +97,7 @@ Evaluation of comparision methods, only need single GPU (low-light, SID for exam
 python tools/test.py configs/ECCV_RAW_Adapter/cvpr18sid_low.py SID_low_iter_80000.pth(your weight path) 
 ```
 
-### 4: Model Training (Optional) 
+### 📖 4: Model Training (Optional) 
 
 We default train all the model on 4 GPUs, with the same data augmentation, resolution, learning rate and iters (80000), etc.
 If you train model with other GPU number or batch size, remember to adjust the learning rate. 
@@ -123,12 +123,12 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 PORT=29588 bash tools/dist_train.sh configs/ECCV_RA
 ```
 
 
-### 5: Additional  Information
+### 📖 5: Additional  Information
 
 If you want to editing the code or find out details of RAW-Adapter, direct refer to [mmseg/models/backbones/RAW_Adapter](mmseg/models/backbones/RAW_Adapter) and [mmseg/models/backbones/raw_mit.py](mmseg/models/backbones/raw_mit.py).
 
 
-### Acknowledgement:
+### 📖 Acknowledgement:
 
 We thanks [mmsegmentation](https://github.com/open-mmlab/mmsegmentation/tree/v1.2.1) & [ADE20K](https://groups.csail.mit.edu/vision/datasets/ADE20K/) for their excellent code base & dataset, and [InvISP](https://yzxing87.github.io/InvISP/index.html) for the RAW data synthesis contribution.
 
