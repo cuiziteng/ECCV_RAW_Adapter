@@ -40,6 +40,7 @@ cd mmsegmentation_github
 
 If you use our dataset or find our work useful in your project, please consider to cite our paper, thx ~
 
+```
 @inproceedings{raw_adapter,
   title = {RAW-Adapter: Adapting Pretrained Visual Model to Camera RAW Images},
   author = {Ziteng Cui and Tatsuya Harada},
