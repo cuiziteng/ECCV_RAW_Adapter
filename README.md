@@ -24,7 +24,7 @@ sRGB images are now the predominant choice for pre-training visual models in com
   <img src="./pics/Fig1.png" height="300">
 </div>
 <p align="left">
-Fig.1 (a). An overview of basic image signal processor (ISP) pipeline. (b). ISP and current visual model have different objectives. (c) Previous methods optimize ISP with down-stream visual model. (d) Our proposed RAW-Adapter.
+(a). An overview of basic image signal processor (ISP) pipeline. (b). ISP and current visual model have different objectives. (c) Previous methods optimize ISP with down-stream visual model. (d) Our proposed RAW-Adapter.
 </p>
 
 ## Usage:
