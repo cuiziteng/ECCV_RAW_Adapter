@@ -1,6 +1,6 @@
 # RAW-Adapter Object Detection (LOD dataset, PASCAL RAW dataset)
 
-### 1: Dataset Download
+### 📖 1: Dataset Download
 
 **LOD Dataset** (low-light RAW detection dataset):
 
@@ -37,7 +37,7 @@ Unzip and place it in $./data$ under this folder, which format as:
 **Note:** the original RAW file in PASCAL RAW are two big (>100GB), you could download them from [PASCAL RAW webiste](https://purl.stanford.edu/hq050zr7488), the code translate original RAW data to demosaic RAW data (normal-light, over-exposure, low-light) could find in here: [PASCAL_RAW_pre_process.py](PASCAL_RAW_pre_process.py).
 
 
-### 2: Enviroment Setup
+### 📖 2: Enviroment Setup
 
 Our code based on [mmdetection 3.3.0](https://github.com/open-mmlab/mmdetection?tab=readme-ov-file) version, you can following their [instruction](https://mmdetection.readthedocs.io/en/latest/get_started.html) to build environment. Or following our steps below:
 
@@ -65,7 +65,7 @@ pip install -v -e .
 pip install rawpy
 ```
 
-### 3: Model Evaluation
+### 📖 3: Model Evaluation
 
 Check the whole pretrain weights at [release](https://github.com/cuiziteng/ECCV_RAW_Adapter/releases).
 
@@ -123,7 +123,7 @@ Evaluation of RAW-Adapter or comparision methods, only need single GPU (RAW-Adap
 python tools/test.py configs/PASCALRAW_Res18/Low_Light_raw_adapter_res18.py https://github.com/cuiziteng/ECCV_RAW_Adapter/releases/download/1.0.2/LL_RAW_Adapter_res18.pth
 ```
 
-### 4: Model Training (Optional)
+### 📖 4: Model Training (Optional)
 
 We default train all RetinaNet model on 1 GPU: (LOD dataset, RAW-Adapter for example)
 
@@ -138,11 +138,11 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 PORT=29588 bash tools/dist_train.sh configs/LOD/SpR
 ```
 
 
-### 5: Additional  Information
+### 📖 5: Additional  Information
 
 If you want to editing the code or find out details of RAW-Adapter, direct refer to [mmseg/models/backbones/RAW_Adapter](mmdet/models/backbones/RAW_Adapter) and [mmseg/models/backbones/raw_mit.py](mmdet/models/backbones/RAW_resnet.py).
 
 
-### Acknowledgement:
+### 📖 Acknowledgement:
 
 We thanks mmdetection & LOD & PASCAL RAW for their excellent code base & dataset.
