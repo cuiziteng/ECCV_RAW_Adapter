@@ -7,7 +7,7 @@
 
 <br/>
 
-Code & Paper release date is around mid August, thanks for your waiting !
+**2024.08.26 :** Upload code of our paper. 
 
 **2024.07.04 :** Paper accepted by **ECCV 2024** ! 
 
