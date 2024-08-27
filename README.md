@@ -1,7 +1,7 @@
 # [ECCV 2024] RAW-Adapter: Adapting Pre-trained Visual Model to Camera RAW Images [(Paper)]() [(Website)](https://cuiziteng.github.io/RAW_Adapter_web/)
 
 <div align="center">
-  <img src="./pics/logo.jpg" height="200">
+  <img src="./pics/logo.jpg" height="250">
 </div>
 
 
