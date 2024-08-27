@@ -2,7 +2,7 @@ _base_ = './cvpr21inverseisp_low.py'
 
 # dataset settings
 dataset_type = 'ADE20KDataset'
-data_root = '/data/ADE20K/ADEChallengeData2016'
+data_root = './data/ADE20K/ADEChallengeData2016'
 crop_size = (512, 512)
 train_pipeline = [
     dict(type='LoadImageFromFile'),
