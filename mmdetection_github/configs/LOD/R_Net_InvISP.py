@@ -77,7 +77,7 @@ model = dict(
 
 
 dataset_type = 'LOD_Dataset'
-data_root = '/data/LOD_BMVC2021/'
+data_root = './data/LOD_BMVC2021/'
 
 backend_args = None
 
