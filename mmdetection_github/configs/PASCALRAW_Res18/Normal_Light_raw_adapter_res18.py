@@ -83,7 +83,7 @@ model = dict(
 
 
 dataset_type = 'PASCAL_RAW'
-data_root = '/data/PASCAL_RAW/'
+data_root = './data/PASCAL_RAW/'
 
 backend_args = None
 
