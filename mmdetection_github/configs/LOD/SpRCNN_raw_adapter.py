@@ -103,7 +103,7 @@ model = dict(
     test_cfg=dict(rpn=None, rcnn=dict(max_per_img=num_proposals)))
 
 dataset_type = 'LOD_Dataset'
-data_root = '/data/LOD_BMVC2021/'
+data_root = './data/LOD_BMVC2021/'
 
 backend_args = None
 
