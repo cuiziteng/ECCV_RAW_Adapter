@@ -1,7 +1,7 @@
 _base_ = './Over_Exp_demosaic_res50.py'
 
 dataset_type = 'PASCAL_RAW'
-data_root = '/data/PASCAL_RAW/'
+data_root = './data/PASCAL_RAW/'
 
 
 backend_args = None
