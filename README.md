@@ -1,4 +1,4 @@
-# [ECCV 2024] RAW-Adapter: Adapting Pre-trained Visual Model to Camera RAW Images [(Paper)](https://arxiv.org/abs/2408.14802) [(Website)](https://cuiziteng.github.io/RAW_Adapter_web/)
+# [ECCV 2024] RAW-Adapter: Adapting Pre-trained Visual Model to Camera RAW Images [(Paper)](https://arxiv.org/abs/2408.14802) [(Website)](https://cuiziteng.github.io/RAW_Adapter_web/)  [(Zhihu中文解读)](https://zhuanlan.zhihu.com/p/717363887)
 
 <div align="center">
   <img src="./pics/logo.jpg" height="250">
