@@ -140,7 +140,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 PORT=29588 bash tools/dist_train.sh configs/LOD/SpR
 
 ### 📖 5: Additional  Information
 
-If you want to editing the code or find out details of RAW-Adapter, direct refer to [mmseg/models/backbones/RAW_Adapter](mmdet/models/backbones/RAW_Adapter) and [mmseg/models/backbones/raw_mit.py](mmdet/models/backbones/RAW_resnet.py).
+If you want to editing the code or find out details of RAW-Adapter, direct refer to [mmdet/models/backbones/RAW_Adapter](mmdet/models/backbones/RAW_Adapter) and [mmdet/models/backbones/RAW_resnet.py](mmdet/models/backbones/RAW_resnet.py).
 
 
 ### 📖 Acknowledgement:
