@@ -34,7 +34,7 @@ Unzip and place it in $./data$ under this folder, which format as:
          -- trainval
 ```
 
-**Note:** the original RAW file in PASCAL RAW are two big (>100GB), you could download them from [PASCAL RAW webiste](https://purl.stanford.edu/hq050zr7488), the code translate original RAW data to demosaic RAW data (normal-light, over-exposure, low-light) could find in here: [PASCAL_RAW_pre_process.py](PASCAL_RAW_pre_process.py).
+**Note:** the original RAW file in PASCAL RAW are too big (>100GB), you could download them from [PASCAL RAW webiste](https://purl.stanford.edu/hq050zr7488), the code translate original RAW data to demosaic RAW data (normal-light, over-exposure, low-light) could find in here: [PASCAL_RAW_pre_process.py](PASCAL_RAW_pre_process.py).
 
 
 ### 📖 2: Enviroment Setup
