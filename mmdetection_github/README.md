@@ -69,7 +69,7 @@ pip install rawpy
 
 Check the whole pretrain weights at [release](https://github.com/cuiziteng/ECCV_RAW_Adapter/releases).
 
-#### **LOD Dataset** config & pretrain weights (ckpt).
+#### 3.1 **LOD Dataset** config & pretrain weights (ckpt).
 
 Compare methods:
 
@@ -99,7 +99,7 @@ Evaluation of RAW-Adapter or comparision methods, only need single GPU (RAW-Adap
 python tools/test.py configs/LOD/R_Net_raw_adapter.py https://github.com/cuiziteng/ECCV_RAW_Adapter/releases/download/1.0.1/R_Net_RAW_Adapter.pth
 ```
 
-**PASCAL RAW Dataset** config & pretrain weights (ckpt):
+#### 3.2 **PASCAL RAW Dataset** config & pretrain weights (ckpt):
 
 RetinaNet - ResNet18 backbone: 
 
