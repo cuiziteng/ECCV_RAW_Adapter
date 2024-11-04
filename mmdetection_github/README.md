@@ -128,7 +128,11 @@ python tools/test.py configs/PASCALRAW_Res18/Low_Light_raw_adapter_res18.py http
 We default train all RetinaNet model on 1 GPU: (PASCAL RAW dataset, RAW-Adapter (ResNet-18) for example)
 
 ```
-python tools/train.py configs/PASCALRAW_Res18/Normal_Light_raw_adapter_res18.py
+python tools/train.py configs/PASCALRAW_Res18/Normal_Light_raw_adapter_res18.py   ## Normal-light
+
+python tools/train.py configs/PASCALRAW_Res18/Low_Light_raw_adapter_res18.py   ## Low-light
+
+python tools/train.py configs/PASCALRAW_Res18/Over_Exp_raw_adapter_res50.py   ## Over-exposure
 ```
 
 We default train all SP-RCNN model on 4 GPUs: (LOD dataset, RAW-Adapter for example)
