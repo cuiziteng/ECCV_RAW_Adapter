@@ -27,7 +27,7 @@ Unzip and place it in $./data$ under this folder, which format as:
 
 ```
 --  data
-     -- PASCAL_RAW_github
+     -- PASCAL_RAW
          -- annotations
          -- original (original RAW, demosaic RAW normal-light & over-exposure & low-light)
          -- compare_ISP (ISP methods, InvISP, ECCV16-ISP)
