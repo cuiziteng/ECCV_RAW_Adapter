@@ -125,10 +125,10 @@ python tools/test.py configs/PASCALRAW_Res18/Low_Light_raw_adapter_res18.py http
 
 ### 📖 4: Model Training (Optional)
 
-We default train all RetinaNet model on 1 GPU: (LOD dataset, RAW-Adapter for example)
+We default train all RetinaNet model on 1 GPU: (PASCAL RAW dataset, RAW-Adapter (ResNet-18) for example)
 
 ```
-python tools/train.py configs/LOD/R_Net_raw_adapter.py
+python tools/train.py configs/PASCALRAW_Res18/Normal_Light_raw_adapter_res18.py
 ```
 
 We default train all SP-RCNN model on 4 GPUs: (LOD dataset, RAW-Adapter for example)
