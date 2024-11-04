@@ -1,6 +1,6 @@
 _base_ = [
-    '/home/mil/cui/mmdetection/configs/_base_/schedules/schedule_1x.py', 
-    '/home/mil/cui/mmdetection/configs/_base_/default_runtime.py',
+    '../_base_/schedules/schedule_1x.py', 
+    '../_base_/default_runtime.py',
 ]
 
 
