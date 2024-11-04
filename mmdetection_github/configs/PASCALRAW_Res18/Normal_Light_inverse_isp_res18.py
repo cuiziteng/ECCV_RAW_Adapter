@@ -1,4 +1,4 @@
-_base_ = './demosaic_res18.py'
+_base_ = './Normal_Light_demosaic_res18.py'
 
 dataset_type = 'PASCAL_RAW'
 data_root = './data/PASCAL_RAW/'
