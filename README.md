@@ -12,6 +12,8 @@
 
 <br/>
 
+**2024.11.04**: Fix some config problems (path) in [detection part](https://github.com/cuiziteng/ECCV_RAW_Adapter/tree/main/mmdetection_github) 
+
 **2024.08.26 :** Upload code of our paper. 
 
 **2024.07.04 :** Paper accepted by **ECCV 2024** ! 
