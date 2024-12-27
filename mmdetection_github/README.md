@@ -21,7 +21,7 @@ Unzip and place it in $./data$ under this folder, which format as:
 
 **PASCAL RAW Dataset** (RAW detection dataset, normal-light/ low-light/ over-exposure):
 
-Download LOD dataset from [Google Drive](https://drive.google.com/file/d/1686W89ALVvtfUvK8NMvqWaUCTLBqhW-p/view?usp=sharing) or [百度网盘 (passwd: kjv9)](https://pan.baidu.com/s/1O76R8ZFZdLw88N0b3hT2Tw).
+Download PASCAL RAW dataset from [Google Drive](https://drive.google.com/file/d/1686W89ALVvtfUvK8NMvqWaUCTLBqhW-p/view?usp=sharing) or [百度网盘 (passwd: kjv9)](https://pan.baidu.com/s/1O76R8ZFZdLw88N0b3hT2Tw).
 
 Unzip and place it in $./data$ under this folder, which format as:
 
