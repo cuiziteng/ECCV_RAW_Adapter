@@ -120,7 +120,7 @@ RetinaNet - ResNet50 backbone:
 Evaluation of RAW-Adapter or comparision methods, only need single GPU (RAW-Adapter, ResNet18, Low-light for example), if you need visulization, please add "--show-dir": 
 
 ```
-python tools/test.py configs/PASCALRAW_Res18/Low_Light_raw_adapter_res18.py https://github.com/cuiziteng/ECCV_RAW_Adapter/releases/download/1.0.2/LL_RAW_Adapter_res18.pth
+python tools/test.py configs/PASCALRAW_Res18/Low_Light_raw_adapter_res18.py   https://github.com/cuiziteng/ECCV_RAW_Adapter/releases/download/1.0.2/LL_RAW_Adapter_res18.pth
 ```
 
 ### 📖 4: Model Training (Optional)
@@ -138,7 +138,7 @@ python tools/train.py configs/PASCALRAW_Res18/Over_Exp_raw_adapter_res50.py   ##
 We default train all SP-RCNN model on 4 GPUs: (LOD dataset, RAW-Adapter for example)
 
 ```
-CUDA_VISIBLE_DEVICES=0,1,2,3 PORT=29588 bash tools/dist_train.sh configs/LOD/SpRCNN_raw_adapter.py
+CUDA_VISIBLE_DEVICES=0,1,2,3 PORT=29588 bash tools/dist_train.sh configs/LOD/SpRCNN_raw_adapter.py 4
 ```
 
 
