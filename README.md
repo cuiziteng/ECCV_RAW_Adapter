@@ -12,6 +12,8 @@
 
 <br/>
 
+**2025.03.24 :** An extension of RAW-Adapter is available at [arxiv](https://arxiv.org/abs/2503.17027), we propose **RAW-Bench** (including 17 kinds of RAW-based common corruptions), and will release it soon !
+
 **2024.11.04**: Fix some config problems (path) in [detection part](https://github.com/cuiziteng/ECCV_RAW_Adapter/tree/main/mmdetection_github).
 
 **2024.08.26 :** Upload code of our paper. 
