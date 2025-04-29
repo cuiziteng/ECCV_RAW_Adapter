@@ -52,7 +52,7 @@ If you use our dataset or find our work useful in your project, please consider 
 ```
 @inproceedings{raw_adapter,
   title = {RAW-Adapter: Adapting Pretrained Visual Model to Camera RAW Images},
-  author = {Ziteng Cui and Tatsuya Harada},
+  author = {Cui, Ziteng and Harada, Tatsuya},
   booktitle={ECCV},
   year={2024}
 }
